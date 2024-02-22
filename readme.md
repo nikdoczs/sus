@@ -1,1 +1,2 @@
 # Moje nove repository 
+zdarec
