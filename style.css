@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  /* You can customize the square color */
+}
+
+.coin {
+  background-image: url('img/coin.png'); /* Replace 'coin.png' with the actual path to your coin image */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.ai {
+  background-image: url('img/beast.png'); /* Replace 'coin.png' with the actual path to your coin image */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#@keyframes vanish {
+#  0% {
+ #   opacity: 1;
+  #}
+  #100% {
+   # opacity: 0;
+  #}
+#}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.score {
+  font-size: 24px;
+  animation: pulse 0.5s ease infinite, vanish 1.5s ease forwards;
+}
