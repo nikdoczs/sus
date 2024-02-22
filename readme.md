@@ -1,2 +1,2 @@
 # Moje nove repository 
-zdarec
+toto je zajimava hra kdy utikate pred mrbeastem pomoci sipek 
